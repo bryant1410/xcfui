@@ -1,37 +1,37 @@
-#xcfui
+# xcfui
 
 Xcode plugin for [fui tool](https://github.com/dblock/fui)
 
 ![Preview](https://raw.githubusercontent.com/jcavar/xcfui/master/preview.png)
 
-##Install
+## Install
 
-###Dependencies
+### Dependencies
 To use this plugin following gems are required:
 *	[xcodeproj](https://rubygems.org/gems/xcodeproj)
 *	[fui](http://rubygems.org/gems/fui)
 
 Please install this dependencies first.
 
-###Plugin
+### Plugin
 
-####Alcatraz
+#### Alcatraz
 xcfui is available via [alcatraz](http://alcatraz.io/) 
 
-####Manual
+#### Manual
 To install plugin download zip, open Xcode project and run. Restart Xcode.
 
-##Uninstall
+## Uninstall
 If you want to remove plugin delete xcfui.xcplugin from ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ folder and restart Xcode.
 
-##Usage
+## Usage
 
 If you want to use xcfui just check 'Find unused imports' item under File menu, if you no longer want to use it just uncheck the item
 
 ![Preview on](https://raw.githubusercontent.com/jcavar/xcfui/master/fui_preview_on.png)
 ![Preview off](https://raw.githubusercontent.com/jcavar/xcfui/master/fui_preview_off.png)
 
-##How it works
+## How it works
 
 *	First add 'Find unused imports' item in Xcode File menu. 
 *	Then swizzle Xcode build method.
